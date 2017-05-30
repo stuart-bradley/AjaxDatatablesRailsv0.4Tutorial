@@ -4,6 +4,7 @@ class UserDatatable < AjaxDatatablesRails::Base
     # Declare strings in this format: ModelName.column_name
     # or in aliased_join_table.column_name format
     @view_columns ||= {
+      id: { source: "User.id", cond: :eq },
       name: { source: "User.name", cond: :like },
       phone: { source: "User.phone", cond: :like },
       address: { source: "User.address", cond: :like }
@@ -13,6 +14,7 @@ class UserDatatable < AjaxDatatablesRails::Base
   def data
     records.map do |record|
       {
+        id: record.id,
         name: record.name,
         phone: record.phone,
         address: record.address

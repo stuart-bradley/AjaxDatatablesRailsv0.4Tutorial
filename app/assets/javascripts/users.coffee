@@ -8,6 +8,7 @@ $ ->
     ajax: $('#users-table').data('source')
     pagingType: 'full_numbers'
     columns: [
+        {data: 'id'}
         {data: 'name'}
         {data: 'phone'}
         {data: 'address'}
