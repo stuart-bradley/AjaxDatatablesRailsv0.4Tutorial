@@ -1,24 +1,11 @@
-# README
+# Ajax DatatablesRails v0.4.0 Example
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This repository is a demonstration of a working 
+example of [AjaxDatatablesRails](https://github.com/jbox-web/ajax-datatables-rails) at version v0.4.0. 
+It follows the tutorial outlined in the gem's readme ([Part 1](https://github.com/jbox-web/ajax-datatables-rails/wiki/Part-1----The-Installation), [Part 2](https://github.com/jbox-web/ajax-datatables-rails/wiki/Part-2-The-Datatables-with-ajax-functionality)), modified to work with v0.4.0. 
 
-Things you may want to cover:
+Notable changes include:
+* Gem installation
+* `user_datatables.rb`
+* `users.js.coffee`/`users.js`
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
